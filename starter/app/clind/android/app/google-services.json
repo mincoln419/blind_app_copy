@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "691566795007",
-    "project_id": "clind-d0546",
-    "storage_bucket": "clind-d0546.appspot.com"
+    "project_number": "696169526936",
+    "project_id": "clind-9704d",
+    "storage_bucket": "clind-9704d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:691566795007:android:76153218c1ff21305994ca",
+        "mobilesdk_app_id": "1:696169526936:android:4152a758ff810ae6ef82ed",
         "android_client_info": {
           "package_name": "com.example.clind"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAkDHjIL4mBXH1sInlH6jypHr0UnTaeOR0"
+          "current_key": "AIzaSyAz4ZB0HyXaAIojKJkXhq4lEwZ-lPGCAcE"
         }
       ],
       "services": {
