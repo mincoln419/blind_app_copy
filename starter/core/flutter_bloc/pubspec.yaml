@@ -1,0 +1,17 @@
+name: core_flutter_bloc
+description: "core_flutter_bloc"
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  core_bloc:
+    path: ../bloc
+
+  flutter_bloc: ^8.1.5
