@@ -29,3 +29,14 @@ class FlowBlocProvider<BlocT extends BlocBase<IFlowState>>
     );
   }
 }
+
+extension FlowBlocProviderContext on BuildContext {
+
+  BlocT readFlowBloc<BlocT extends BlocBase<IFlowState>>(){
+  return read<BlocT>();
+  }
+
+  BlocT watchFlowBloc<BlocT extends BlocBase<IFlowState>>(){
+    return watch<BlocT>();
+  }
+}

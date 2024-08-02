@@ -25,3 +25,13 @@ class FlowRepositoryProvider<DataT> extends RepositoryProvider {
     );
   }
 }
+
+extension FlowRepositoryProviderContext on BuildContext {
+  DataT readFlowRepository<DataT>(){
+    return read<DataT>();
+  }
+
+  DataT watchFlowRepository<DataT>(){
+    return watch();
+  }
+}
